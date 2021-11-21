@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="menu"></p>
+        <script>
+            var days = prompt("enter day: ")
+            var time = prompt("enter time: ")
+            if (days==="monday"){
+                if (time==="breakfast"){
+                    document.getElementById("menu").innerHTML = "Poha";
+                }
+                else if (time==="lunch"){
+                    document.getElementById("menu").innerHTML = "Daal & Chawal";
+                }
+                else if (time==="dinner"){
+                    document.getElementById("menu").innerHTML = "Rajma Chawal";
+                }
+                else{
+                    document.getElementById("menu").innerHTML = "You wrote wrong time";
+                }
+            }
+            else if (days==="tuesday"){
+                if (time==="breakfast"){
+                    document.getElementById("menu").innerHTML = "Namkeen Sewayi";
+                }
+                else if (time==="lunch"){
+                    document.getElementById("menu").innerHTML = "Aalu Gobhi Sbji & Chawal";
+                }
+                else if (time==="dinner"){
+                    document.getElementById("menu").innerHTML = "Chole & Chapati";
+                }
+                else{
+                    document.getElementById("menu").innerHTML = "You wrote wrong time";
+                }
+            }
+            else if (days==="wednesday"){
+                if (time==="breakfast"){
+                    document.getElementById("menu").innerHTML = "Sprouts";
+                }
+                else if (time==="lunch"){
+                    document.getElementById("menu").innerHTML = "Aalu Matar Sbji & Chawal";
+                }
+                else if (time==="dinner"){
+                    document.getElementById("menu").innerHTML = "Soyabeen & Chapati";
+                }
+                else{
+                    document.getElementById("menu").innerHTML = "You wrote wrong time";
+                }
+            }
+            else if (days==="thursday"){
+                if (time==="breakfast"){
+                    document.getElementById("menu").innerHTML = "Maggi";
+                }
+                else if (time==="lunch"){
+                    document.getElementById("menu").innerHTML = "Aalu Postu Sbji & Chawal";
+                }
+                else if (time==="dinner"){
+                    document.getElementById("menu").innerHTML = "Beens & Chapati";
+                }
+                else{
+                    document.getElementById("menu").innerHTML = "You wrote wrong time";
+                }
+            }
+            else if (days==="friday"){
+                if (time==="breakfast"){
+                    document.getElementById("menu").innerHTML = "Aalu Paratha";
+                }
+                else if (time==="lunch"){
+                    document.getElementById("menu").innerHTML = "Pumpkin Sbji & Chawal";
+                }
+                else if (time==="dinner"){
+                    document.getElementById("menu").innerHTML = "Shimla Mirch Sbji & Chapati";
+                }
+                else{
+                    document.getElementById("menu").innerHTML = "You wrote wrong time";
+                }
+            }
+            else if (days==="saturday"){
+                if (time==="breakfast"){
+                    document.getElementById("menu").innerHTML = "Methi Paratha";
+                }
+                else if (time==="lunch"){
+                    document.getElementById("menu").innerHTML = "Matar Pulao With Papard";
+                }
+                else if (time==="dinner"){
+                    document.getElementById("menu").innerHTML = "Aalu Brinjal Sbji & Chapati";
+                }
+                else{
+                    document.getElementById("menu").innerHTML = "You wrote wrong time";
+                }
+            }
+            else if (days==="sunday"){
+                if (time==="breakfast"){
+                    document.getElementById("menu").innerHTML = "Halwa";
+                }
+                else if (time==="lunch"){
+                    document.getElementById("menu").innerHTML = "Loki Sbji & Chawal";
+                }
+                else if (time==="dinner"){
+                    document.getElementById("menu").innerHTML = "Aalu Palak Sbji & Chapati";
+                }
+                else{
+                    document.getElementById("menu").innerHTML = "You wrote wrong time";
+                }
+            }
+            else{
+                document.getElementById("menu").innerHTML = "You wrote wrong day";
+            }
+        </script>
+    </body>
+</html>
